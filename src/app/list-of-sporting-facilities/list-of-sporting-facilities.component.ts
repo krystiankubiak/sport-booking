@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SportingFacility } from '../sporting-facility/sporting-facility';
+import { SportingFacility } from '../sporting-facility/sporting-facility.model';
 
 @Component({
   selector: 'app-list-of-sporting-facilities',
