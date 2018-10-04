@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { SportingFacility } from './sporting-facility';
+import { Component, OnInit, Input } from '@angular/core';
+import { SportingFacility } from './sporting-facility.model';
 import { Address } from '../address/address.model';
 
 @Component({
@@ -16,7 +16,9 @@ export class SportingFacilityComponent implements OnInit {
     number: '23b',
     number2: '1'
   };
-  sportingFacility: SportingFacility = {name: 'Dom', address: this.address};
+
+  @Input()
+  sportingFacility: SportingFacility; // = {name: 'Dom', address: this.address};
 
 
 

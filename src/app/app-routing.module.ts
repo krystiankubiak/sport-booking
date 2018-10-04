@@ -9,6 +9,7 @@ import { ShowDetailsResolver } from './tv/show-details/show-details.resolver';
 import { LoggedInGuard } from './auth/logged-in.guard';
 */
 import { SportingFacilityComponent } from './sporting-facility/sporting-facility.component';
+import { ListOfSportingFacilitiesComponent } from './list-of-sporting-facilities/list-of-sporting-facilities.component';
 
 const routes: Routes = [
   {
@@ -17,7 +18,7 @@ const routes: Routes = [
   },
 {
     path: 'sportingFacilities',
-    component: SportingFacilityComponent
+    component: ListOfSportingFacilitiesComponent
   }
   /*,
   {

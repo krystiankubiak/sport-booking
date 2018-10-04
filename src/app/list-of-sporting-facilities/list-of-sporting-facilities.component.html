@@ -1,3 +1,5 @@
-<p>
-  list-of-sporting-facilities works!
-</p>
+<li *ngFor="let sf of listOfSportingFacilities">
+
+  <app-sporting-facility [sportingFacility]=sf ></app-sporting-facility>
+
+</li>
